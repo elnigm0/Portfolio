@@ -1,0 +1,424 @@
+*{
+
+  font-family: "Cairo", sans-serif; 
+  font-family: "Montserrat", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #a1a9c1; 
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+    top: 0;
+
+}
+.logo {
+    text-decoration: none;
+    color: #5c00e7;
+    text-transform: uppercase;
+    font-weight: 700px;
+    font-size: 1.8em;
+}
+.logo span {
+    color: #fff;
+}
+.navigation a{
+    text-decoration: none;
+    color: #5c00e7;
+    font-size: 1.1em;
+    font-weight:500 ;
+    margin-left: 10px;
+}
+.navigation a:hover{
+    color: #4077ff;
+}
+/* Start language */
+.language {
+    
+    background-color: #c1c1c1;
+    padding: 5px;
+    border: 1px solid #fff;
+    color: #000;
+    text-decoration: none;
+
+}
+.language:hover {
+    background-color: #0081ff;
+}
+.language-1 {
+    
+    background-color: #c1c1c1;
+    padding: 5px;
+    border: 1px solid #fff;
+    color: #000;
+    text-decoration: none;
+
+}
+.language:hover {
+    background-color: #0081ff;
+}
+
+/* End language */
+
+details {
+    color: #fff;
+    z-index: 999;
+}
+details {
+  position: absolute; /* تثبيته في الهيدر */
+  top: 10px; /* مسافة صغيرة من الأعلى */
+  right: 10px; /* جعله في الزاوية اليمنى */
+  height: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  cursor: pointer;
+  margin-left: 1000px;
+  padding: -1%;
+}
+
+summary {
+  list-style: none; /* إزالة المثلث الافتراضي */
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+summary i {
+     font-size: 20px ;
+     align-items: center;
+     color: #4285F4 ;     
+}
+
+summary::after {
+  font-size: 50px;
+  color: #007bff;
+}
+
+details[open] {
+  width: auto; /* تكبير الحجم عند الفتح */
+  height: auto;
+  padding: 5px;
+}
+
+details a {
+  display: block;
+  font-size: 5px; /* تصغير حجم النص */
+  padding: 3px 0; /* تقليل المسافة بين الروابط */
+  text-decoration: none;
+  color: #333;
+}
+
+details a:hover {
+  color: #007bff;
+}
+details a:hover {
+  color: #007bff;
+}
+
+summary {
+  font-weight: bold;
+  cursor: pointer; /* يجعل الماوس على شكل يد عند المرور */
+  padding: 5px;
+  list-style: none; /* إزالة المثلث الافتراضي */
+}
+/* End navigation */
+section {
+    padding: 100px 200px;
+}
+.main{
+    width:100% ;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+.main h2{
+    color: gold;
+    font-size: 1.4em;
+    font-weight: 500;
+   
+}
+.main h2 span{
+    color: #cd225d;
+    font-size: 3em;
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 10px;
+
+}
+.main h3{
+    color: gold;
+    font-size: 2em;
+    font-weight:700 ;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.main-btn {
+    color: #fff;
+    background-color: #002e2a;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 1.7s ease;
+}
+
+.main-btn:hover{
+    background-color: #009589;
+    transform: scale(1.1);
+}
+
+.social-icons a{
+    color: #8fff00;
+    font-size: 30px;
+    padding-right: 30px;
+    
+}
+.social-icons a:hover{
+    color: #e3ff00;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color:#4600de ;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+    
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.card{
+    background-color: #fff;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 /15%);
+    border-radius: 10px;
+    padding:25px ;
+    margin: 15px;
+    transition: 1.7s ease;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.icon {
+    color: #4600de;
+    font-size: 8em;
+    text-align: center;
+    
+}
+
+.info{
+    text-align: center;
+}
+.info h3{
+    color: #4600de;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.projects{
+    background-color: #000016;
+}
+.projects .content{
+    margin-top: 30px;
+}
+.project-card{
+    background-color: #fff;
+    border: 1px solid #fff;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px ;
+    transition: 0.7s ease;
+    
+}
+
+.project-card:hover{
+    transform: scale(1.1);
+}
+
+.project-image img{
+    width: 100%;
+    
+}
+
+
+.project-card:hover .project-image{
+    opacity: 0.9;
+}
+
+.project-info{
+    padding: 1em;
+    
+}
+
+.project-category{
+    font-size: 0.8em ;
+    color: #000;
+    
+}
+
+.project-title{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+    
+}
+
+
+.more-details {
+    text-decoration: none;    
+    color: #a400ff;
+}
+
+.more-details:hover{
+    color: #1100ff;
+}
+
+.contact .icon{
+
+    font-size: 4.5em;
+}
+
+.contact .info h3{
+    
+    color: #000;
+    
+}
+
+.contact .info p {
+     font-size: 10px ;
+    
+}
+
+
+.footer {
+    background-color: #000016;
+    color: #fff;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-title{
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.footer-title span{
+    color: #5c40ff;
+}
+
+.footer. social-icons {
+    font-size: 1.3em;
+}
+
+
+@media(max-width:1023px){
+    
+    header {
+        padding: 20px 12px;
+    }
+    
+    .navigation a{
+        padding-left: 10px;
+    }
+    .title {
+        font-size: 1.8em;
+    }
+    
+    section {
+        padding: 80px 20px;
+    }
+    
+    .min-content h2{
+        font-size: 1em;
+    }
+    
+    .min-content h3{
+        font-size: 1.6em;
+    }
+    
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    
+}
+
+@media(max-width:641px){
+
+    body {
+        font-size: 12px;
+    }
+   .min-content h2{
+        font-size: 0.8em;
+    }
+    
+   .min-content h3{
+        font-size: 1.4em;
+    }
+}
+
+
+@media(max-width:300px){
+    
+    body {
+        font-size: 10px;
+    }
+        details {
+        top: -2px;
+        right: -0px;
+
+    }
+}
+
+@media(max-width:435px){
+    
+    details {
+        top: -0.0px;
+        right: -0.0px;
+
+    }
+    
+}
+
+
+
