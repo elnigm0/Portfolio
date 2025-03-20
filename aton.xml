@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <title>سي في محمد عصام كوبرا - أحدث التحديثات</title>
+    <title>موقعي</title>
     <link href="https://elnigm0.github.io/Portfolio/aton.xml" rel="self"/>
     <updated>2025-03-20T12:00:00Z</updated>
     <author>
-        <name>محمد عصام كوبرا</name>
+        <name>اسم الموقع</name>
     </author>
     <id>https://elnigm0.github.io/Portfolio/</id>
 
@@ -13,14 +13,14 @@
         <link href="https://elnigm0.github.io/Portfolio/index.html"/>
         <id>https://elnigm0.github.io/Portfolio/index.html</id>
         <updated>2025-03-20T12:00:00Z</updated>
-        <summary>مرحبا بكم في موقعي الشخصي، حيث يمكنكم معرفة المزيد عني وأعمالي.</summary>
+        <summary>الصفحة الرئيسية للموقع</summary>
     </entry>
 
     <entry>
-        <title>عن الموقع</title>
- <link href="https://elnigm0.github.io/Portfolio/arabic.html"/>
+        <title>الصفحة العربية</title>
+        <link href="https://elnigm0.github.io/Portfolio/arabic.html"/>
         <id>https://elnigm0.github.io/Portfolio/arabic.html</id>
         <updated>2025-03-20T12:00:00Z</updated>
-        <summary>تعرف على خبراتي، مهاراتي، وأهدافي المهنية.</summary>
+        <summary>الصفحة باللغة العربية</summary>
     </entry>
 </feed>
