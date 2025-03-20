@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stamp>
+    <site>
+        <name>سي في محمد عصام كوبرا</name>
+        <url>https://elnigm0.github.io/Portfolio/</url>
+        <lastUpdated>2025-03-20T12:00:00Z</lastUpdated>
+    </site>
+    <updates>
+        <update>
+            <title>إضافة صفحة "عن الموقع"</title>
+            <url>https://elnigm0.github.io/Portfolio/about.html</url>
+            <date>2025-03-20</date>
+            <description>تمت إضافة صفحة تحتوي على تفاصيل حول مسيرتي المهنية.</description>
+        </update>
+
+        <update>
+            <title>إطلاق الموقع الرسمي</title>
+            <url>https://elnigm0.github.io/Portfolio/index.html</url>
+            <date>2025-03-19</date>
+            <description>تم نشر الموقع الرسمي ويشمل أحدث أعمالي.</description>
+        </update>
+    </updates>
+</stamp>
